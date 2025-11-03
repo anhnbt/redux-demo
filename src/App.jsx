@@ -12,6 +12,7 @@ function App() {
         <button onClick={() => dispatch(increment())}>count is {count}</button>
         <button onClick={() => dispatch(decrement())}>-</button>
       </div>
+      <div>&copy; 2025 CodeGym.</div>
     </>
   );
 }
